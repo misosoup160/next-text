@@ -12,7 +12,7 @@ services:
     tty: true
     build:
       context: ./back/
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     ports:
       - 3000:3000
     volumes:
